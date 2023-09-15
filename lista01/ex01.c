@@ -16,6 +16,8 @@ int main(){
   minutos = resto / 60;
   segundos = resto % 60;
   printf("%i horas, %i minutos, %i segundos\n", horas,minutos,segundos);
+  printf("%i horas, %i minutos, %i segundos\n", horas,minutos,segundos);
+
 
   return 0;
 }
