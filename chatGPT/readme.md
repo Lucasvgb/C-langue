@@ -1,1 +1,1 @@
-adasdasdasdasdasda
+Exercícios extraídos do chatGPT
