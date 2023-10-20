@@ -26,7 +26,7 @@ int main() {
     int totallinhas;
 
     // Solicita ao usuário o número de linhas
-    printf("Digite o número de linhas do triângulo: ");
+    printf("Digite o numero1 de linhas do triangulo: ");
     scanf("%d", &totallinhas);
 
     int numero1Inicial = totallinhas + 1; // Define o número inicial
