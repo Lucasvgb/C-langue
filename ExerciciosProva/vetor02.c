@@ -44,6 +44,5 @@ int main(){
     printf("array[%d] = %.2f\n", n , array[n]);
   }
 
-
   return 0;
 }
