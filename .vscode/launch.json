@@ -5,9 +5,9 @@
 		"name": "(Windows) Launch",
 		"type": "cppvsdbg",
 		"request": "launch",
-		"program": "enter program name, for example ${workspaceFolder}/a.exe",
+		"program": "${workspaceFolder}/a.out",
 		"args": [],
-		"stopAtEntry": false,
+		"stopAtEntry": true,
 		"cwd": "${fileDirname}",
 		"environment": [],
 		"console": "externalTerminal"
