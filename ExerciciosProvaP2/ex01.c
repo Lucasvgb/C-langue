@@ -18,9 +18,12 @@ int P (int *lista, int i, int f){
 
 int main(){
 
-  int lista [TAM] = {1,2,3,4,3,2,1};
+  int lista [TAM] = {1,2,3,4,3,0,1};
   int tamanho = TAM;
-  if(!P(lista , 0 , TAM - 1))
+  if(P(lista , 0 , TAM - 1))
+    printf("SIM!\n");
+  else
     printf("NAO!\n");
+
 
 }
