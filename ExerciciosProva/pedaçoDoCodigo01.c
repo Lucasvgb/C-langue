@@ -12,12 +12,12 @@ int calculaTamanho(char* palavra) {
 void rotPalavra(char* palavra) {
   int tamanho;
   tamanho = calculaTamanho(palavra);
-  char primeiroCaractere = palavra[0];
+  char primeiroCarac = palavra[0];
 
   for (int i = 0; i < tamanho; i++) {
     palavra[i] = palavra[i + 1];
   }
-  palavra[tamanho - 1] = primeiroCaractere;
+  palavra[tamanho - 1] = primeiroCarac;
 }
 
 int main() {
